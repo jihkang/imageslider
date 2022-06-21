@@ -1,0 +1,21 @@
+ul, li {
+  list-style : none;
+}
+ul {
+  display: flex;
+  position : relative;
+  align-items: center;
+  justify-content:center;
+}
+ul li {
+  transition : 0.5s;
+}
+ul li:hover{
+  transform: translate(25px);
+}
+
+ul button {
+  width : 30px;
+  height : 50px;
+  align-items: center;
+}
